@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTutorial", "DirectXTutorial\DirectXTutorial.vcxproj", "{CAAB4168-5EDC-47B7-91D3-246060A2AA59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Debug|x64.ActiveCfg = Debug|x64
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Debug|x64.Build.0 = Debug|x64
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Debug|x86.ActiveCfg = Debug|Win32
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Debug|x86.Build.0 = Debug|Win32
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Release|x64.ActiveCfg = Release|x64
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Release|x64.Build.0 = Release|x64
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Release|x86.ActiveCfg = Release|Win32
+		{CAAB4168-5EDC-47B7-91D3-246060A2AA59}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0B3AF4D-AB8B-4533-BBC6-17D05106BEDF}
+	EndGlobalSection
+EndGlobal
