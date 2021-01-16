@@ -121,7 +121,7 @@ int CALLBACK WinMain(
 	
 	while ((gResult =GetMessage(&msg, nullptr, 0, 0) > 0))
 	{
-		//const float c = sin(timer.Peek()) / 2.0f + 0.5f;
+		//const float c = sin(timer.Peek()) / 2.0f + 0.5f;ff
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 		 pContext->ClearRenderTargetView(pTarget, color);
