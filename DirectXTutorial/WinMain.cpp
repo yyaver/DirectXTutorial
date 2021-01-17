@@ -3,6 +3,7 @@
 #include <tchar.h>
 #include<sstream>
 #include<d3d11.h>
+#include <wrl.h>
 #pragma comment (lib,"d3d11.lib")
 
 LRESULT CALLBACK WindProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
@@ -118,6 +119,11 @@ int CALLBACK WinMain(
 	//pContext->ClearRenderTargetView(pTarget, color);
 	pSwap->Present(1u, 0u);
 	//pContext->ClearRenderTargetView(pTarget, color);
+	Microsoft::WRL::ComPtr<ID3D11Device> pDevice;
+	Microsoft::WRL::ComPtr<ID3D11Device> pSwap;
+	Microsoft::WRL::ComPtr<ID3D11Device> pContext;
+	Microsoft::WRL::ComPtr<ID3D11Device> pTarget;
+
 	
 	while ((gResult =GetMessage(&msg, nullptr, 0, 0) > 0))
 	{
